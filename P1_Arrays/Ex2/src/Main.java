@@ -6,7 +6,7 @@ public class Main {
     }
 
     private static void buscarLetra() {
-        char[] letras = {'T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E'};
+        char letras[] = {'T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E'};
         Scanner sc = new Scanner(System.in);
         System.out.println("Escriba su numero de DNI: ");
         int dni = sc.nextInt();
